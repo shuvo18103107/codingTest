@@ -23,7 +23,7 @@ Welcome to the Signer project! This Laravel-based application allows users to up
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/signer.git
+git clone https://github.com/shuvo18103107/codingTest
 
 ```
 
@@ -33,19 +33,24 @@ git clone https://github.com/your-username/signer.git
 composer install
 
 ```
+
 3. Create a .env file by duplicating the .env.example file:
 
 ```bash
 cp .env.example .env
 
 ```
+
 4. Generate the application key:
-```bash 
+
+```bash
 php artisan key:generate
 
 ```
+
 5. Configure your database connection in the .env file:
-```bash 
+
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -54,16 +59,21 @@ DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
 
 ```
+
 6. Run migrations to the database:
-```bash 
+
+```bash
 php artisan migrate
 
 ```
+
 7. Start the development server:
-```bash 
+
+```bash
 php artisan serve
 
 ```
+
 ## Usage Instructions
 
 1. After starting the development server, open your web browser.
