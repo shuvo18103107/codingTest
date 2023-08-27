@@ -15,6 +15,7 @@ class AttachFile extends Model
         'file_path',
         'file_type',
         'file_size',
+        'upload_timestamp',
         'created_at',
         'updated_at',
     ];
