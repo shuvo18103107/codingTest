@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('file_name')->nullable();
             $table->string('file_path')->nullable();
             $table->string('file_type')->nullable();
-            $table->timestamps('upload_timestamp')->nullable();
+            $table->timestamp('upload_timestamp')->nullable();
             $table->unsignedBigInteger('file_size')->nullable();
             $table->timestamps();
         });
