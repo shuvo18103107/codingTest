@@ -69,10 +69,15 @@ php artisan migrate
 
 7. Start the development server:
 
-```bash
+````bash
 php artisan serve
 
-```
+8. Run this command
+
+```bash
+php artisan storage:link
+
+````
 
 ## Usage Instructions
 
